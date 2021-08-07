@@ -14,7 +14,7 @@ Bizim gibi insanları bulmak istiyoruz. Bu şekilde deneyimlerimizi paylaşabili
 
 Belki bir gün hobi projelerimiz açık kaynak kodlu uygulamalara dönüşebilir ve birçok şirkette veya birçok uygulamada kullanılabilir.
 
-<cite>[Daniel Pink'in Drive][1]</cite> adlı kitabının yazıldığı gibi; özerklik, ustalık ve amaç bizi motive eden bazı temel değerler. Bu değerler aynı zamanda topluluğun da kurulması için hızlandırıcı olmuştur.
+[Daniel Pink'in Drive](https://www.youtube.com/watch?v=rrkrvAUbU9Y) adlı kitabının yazıldığı gibi; özerklik, ustalık ve amaç bizi motive eden bazı temel değerler. Bu değerler aynı zamanda topluluğun da kurulması için hızlandırıcı olmuştur.
 
 ## Motivasyonumuz Nedir?
 
@@ -39,5 +39,3 @@ Cesaret ustalık için göstermemiz gereken bir davranış. "Hata Yapma Cesareti
 ### Amaç
 
 İtiraf etmek gerekirse, ana amacımız hobimizin hobi olarakta kalmasını sağlamak. Ancak bu sayede şu anda çalıştığımız ve para kazandığımız hayatımızı daha katlanabilir hale getirebiliriz.
-
-[1]: https://www.youtube.com/watch?v=rrkrvAUbU9Y
