@@ -1,41 +1,41 @@
-# Hoş geldiniz
+# Hoş geldin
 
-Bütün kurucular, destekleyiciler ve üyeler için Anadolu Yazılım Topluluğu'nun hoş geldin sayfasıdır.
+ Bu, tüm sahipler, katkıda bulunanlar ve üyeler için Anadolu Yazılım Topluluğu Hoş Geldiniz sayfasıdır.
 
-Bu repository içerisinde topluluk ile ilgili yapılan projeler ve materyalleri bulabiliyor olacaksınız.
+ Bu kod deposunda bu toplulukla ilgili projeler ve belgeler bulunabilir.
 
-## Biz kimiz?
+ ## Biz Kimiz?
 
-Biz programlama hobisi işine dönüşmüş ve o eski ama güzel günleri özleyen bir kaç kişiyiz.
+ Biz programlama hobisi profesyonel işimize dönüşen, eski ama güzel günleri özleyen bir kaç kişiyiz.
 
-## Niye Bu Topluluk Kuruldu?
+ ## Bu topluluk neden kuruldu?
 
-Bizim gibi insanları bulmak istiyoruz. Bu şekilde deneyimlerimizi paylaşabilir, kar amacı gütmeyen ve sadece eğlenceli hobi projeleri geliştirmek için bir fırsat yaratabiliriz.
+ Bizim gibi insanları bulmak istiyoruz. Bu sayede deneyimlerimizi paylaşabilir, kar amacı gütmeyen ve eğlenceli hobi projeleri geliştirme fırsatı yaratabiliriz.
 
-Belki bir gün hobi projelerimiz açık kaynak kodlu uygulamalara dönüşebilir ve birçok şirkette veya birçok uygulamada kullanılabilir.
+ Belki bir gün hobi projelerimiz açık kaynak kodlu projelere dönüşebilir ve birçok şirkette veya birçok uygulamada kullanılabilir.
 
-[Daniel Pink'in Drive](https://www.youtube.com/watch?v=rrkrvAUbU9Y) adlı kitabının yazıldığı gibi; özerklik, ustalık ve amaç bizi motive eden bazı temel değerler. Bu değerler aynı zamanda topluluğun da kurulması için hızlandırıcı olmuştur.
+ ## Motivasyonumuz
 
-## Motivasyonumuz Nedir?
+ [Daniel Pink'in Drive adlı kitabında](https://www.youtube.com/watch?v=rrkrvAUbU9Y) yazdığı gibi; özerklik, ustalık ve amaç, bizi motive eden bazı temel değerlerdir. Bu temel değerler aynı zamanda topluluğumuzu inşa etmenin de katalizörü oldu.
 
-### Özerklik
+ ### Özerklik
 
-Özerlik; hobimiz olan programlamayı iş dışında da yapmamıza onak verecek en önemli motivasyon kaynağımız. Tam olarak motive olmak için ne yaptığımızı, ne zaman yaptığımızı ve kiminle yaptığımızı kontrol edebilmiş oluyoruz.
+ Özerklik; hobimiz olan programlamayı iş dışında da yapabilmemiz için en önemli motivasyon kaynağımız. Tam olarak motive olmak için ne yaptığımızı, ne zaman ve kiminle yapacağımızı kontrol edebiliyoruz.
 
-Özerlik bize katı kurallara uymaya gerek kalmadan yaratıcılığımızı daha çok kullanmamıza olanak sağlıyor.
+ Özerklik; katı kurallara uymak zorunda kalmadan yaratıcılığımızı daha fazla kullanmamızı da sağlıyor.
 
-### Ustalık
+ ### Ustalık
 
-Programlama konusunda ustalaşmak diğer motivasyon kaynaklarımızdan. Ustalaşmak için sahip olduğumuz potansiyeli ve hayata geçirme becerimizi kullanıyor olacağız.
+ Programlamada ustalaşmak başka bir motivasyon kaynağıdır. Ustalaşmak için potansiyelimizi ve hayata geçirme yeteneğimizi kullanıyor olacağız.
 
-#### Paylaşmak
+ #### Paylaşma
 
-Paylaşmak ustalık için kullandığımız motivasyon kaynaklarından bir tanesi. Paylaşarak ve topluluk üyelerinden yeni bilgiler öğrenerek bir birimizi de motive etme fırsatı buluyoruz.
+ Paylaşmak, ustalığı desteklemek için alt motivasyon kaynağıdır. Bilgi ve tecrübeyi paylaşmak ve yeni şeyler öğrenmek bizi motive ediyor.
 
-#### Cesaret
+ #### Cesaret
 
-Cesaret ustalık için göstermemiz gereken bir davranış. "Hata Yapma Cesareti", "Deneme Cesareti", "İfade Edebilme Cesareti" ve benzeri cesaretler her zaman göstermemiz gereken davranışlar.
+ Cesaret, ustalık için gereklidir. "Hata yapma cesareti", "Deneme cesareti", "ifade etme cesareti" ve benzeri cesaretlere sahip olmamız gerekir.
 
-### Amaç
+ ### Amaç
 
-İtiraf etmek gerekirse, ana amacımız hobimizin hobi olarakta kalmasını sağlamak. Ancak bu sayede şu anda çalıştığımız ve para kazandığımız hayatımızı daha katlanabilir hale getirebiliriz.
+ İtiraf etmek gerekirse temel amacımız hobimizi hobi olarak sürdürmektir.  Şu anda çalıştığımız ve para kazandığımız hayatımızı ancak bu şekilde daha katlanılabilir hale getirebiliriz.
