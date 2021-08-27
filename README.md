@@ -4,6 +4,8 @@ This is Anatolian Software Community Welcome page for all owners, contributer an
 
 In this repository can be found projects and documents about this community.
 
+Read this page in other languages: [Türkçe](README.tr-tr.md)
+
 ## Who are we?
 
 We are a few people whose programming hobby turn into our professional job and who miss old but good days.
