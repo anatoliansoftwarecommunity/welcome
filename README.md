@@ -32,7 +32,7 @@ Mastering in programming is another source of motivation. We will use our potent
 
 #### Sharing
 
-Sharing is the sub motivation source to support mastery. To share knowledge and experience and also learning new things motivates us. 
+Sharing is the sub motivation source to support mastery. To share knowledge and experience and also learning new things motivates us.
 
 #### Courage
 
