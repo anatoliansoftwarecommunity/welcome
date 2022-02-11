@@ -1,8 +1,8 @@
 # Labels & Description
 
-As a community standard there are some specified labels for tracking issues and pull requests. There are three kinds of labels as status, priority and type.
+As a community standard, there are some specified labels for tracking issues and pull requests. There are three kinds of labels: status, priority, and type.
 
-For every unclassified issues will assign `discussion` label.
+For every unclassified issue will assign a `discussion` label.
 
 | Group | Name | Color Code | Key | Description |
 |:-------|:------|------------|:-----|:-------------|
@@ -23,7 +23,7 @@ Status labels are shown issues' status in the development flow.
 
 ## Priority Labels
 
-Priority labels are shown issues' development priority. With priority labels can developers decide which issue will be develop first.
+Priority labels are shown issues' development priority. With priority labels can developers decide which issue will be developed first.
 
 | Group | Name | Color Code | Key | Description |
 |:-------|:------|------------|:-----|:-------------|
@@ -35,7 +35,7 @@ Priority labels are shown issues' development priority. With priority labels can
 
 ## Type Labels
 
-Type labels are used for assigning type of issues and pull requests.
+Type labels are used for assigning the type of issues and pull requests.
 
 | Group | Name | Color Code | Key | Description |
 |:-------|:------|------------|:-----|:-------------|
