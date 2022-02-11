@@ -1,14 +1,14 @@
 # Anatolian Software Community Documentation Guidelines
 
-This document contains documentation guidelines and general documentation rules that decided with community.
+This document contains documentation guidelines and general documentation rules that are decided with the community.
 
 ## Global Repository
 
-In community we will have a lot of repositories, but [welcome](https://github.com/anatoliansoftwarecommunity/welcome) repository is a global repository. Global repository contains all guidelines, open topics as issue and also some extra things related to community.
+In the community, we will have a lot of repositories, but [welcome](https://github.com/anatoliansoftwarecommunity/welcome) repository is a global repository. The global repository contains all guidelines, open topics as issues, and also some extra things related to the community.
 
 ## Documentation Path
 
-All global documents will be in this repository with `./docs` folder. According to repository or project needings sub folder may be exist.
+All global documents will be in this repository with the `./docs` folder. According to repository or project needings, a subfolder folder may exist.
 
 ## Documentation Formats
 
@@ -16,19 +16,19 @@ All documents will be in Markdown format.
 
 ## Documentation Language
 
-In the beginning we start with English. All documents will be in English.
+In the beginning, we start with English. All documents will be in English.
 
 ## Global Standards & Rules
 
-Community have some rules applicable for all members, repositories and projects. These rules keep like normal documents in global repository in `./docs/standard` as path. Like this document. 🙂
+The community has some rules applicable for all members, repositories, and projects. These rules keep like normal documents in the global repository in `./docs/standard` as the path. Like this document. 🙂
 
 ## License File
 
-All projects and documents will be protected with MIT license. License file has to be in root folder of each project as `LICENSE` file.
+All projects and documents will be protected with an MIT license. The license file has to be in the root folder of each project as the `LICENSE` file.
 
-No need to add license header for every project file.
+No need to add a license header for every project file.
 
-Sample license is below. Please do not forget to update license year as project start year.
+The sample license is below. Please do not forget to update the license year as the start year of the project.
 
 ```txt
 MIT License
