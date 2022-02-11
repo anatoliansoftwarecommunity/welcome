@@ -1,16 +1,16 @@
 # Logo Usage Document
 
-In this document can find how to use community logo.
+In this document, you can find how to use the community logo.
 
-## Boyut
+## Size
 
-The size of the community logo can be used as a square, the smallest 64 pixels and the largest 2048 pixels.
+The size of the community logo can be used as a square, the smallest 64 pixels, and the largest 2048 pixels.
 
-## Kenar Boşluğu ve Yerleşim
+## Margin and Layout
 
 ![Logo Margins](logo_final_rectangle.png)
 
-Community logo is used in a way that is centered inside the square. The logo is placed in the rectangle formed by leaving 20.50% space from the top and bottom edges and 8% from the right and left edges.
+The community logo is used in a way that is centered inside the square. The logo is placed in the rectangle formed by leaving 20.50% space from the top and bottom edges and 8% from the right and left edges.
 
 ![Logo inside the Circle](logo_final_circle.png)
 
