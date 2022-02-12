@@ -1,8 +1,8 @@
 # Code of Conduct
 
-This document contains a set of rules outlining the norms, rules, and responsibilities or proper practices of the community. All the members of the community must pay attention to this document while developing any kind of application for the community.
+This document contains a set of rules outlining the community's norms, rules, and responsibilities or proper practices. All the members of the community must pay attention to this document while developing any kind of application for the community.
 
-This document contains only `C#` rules, because the community will start developing with that programming language.
+This document contains only `C#` rules because the community will start developing with that programming language.
 
 ## Readability
 
@@ -10,10 +10,10 @@ The purpose of this section is while reading the code blocks must be easy to tra
 
 ### Casing
 
-The naming standards are defined under this section that use while developing an application [[1]].
+The naming standards are defined under this section that is used while developing an application [[1]].
 
 - The name of the classes, enumerations, delegates, methods, constructors, namespaces, and property must be Pascal case.
-- The name of the variables, and method parameters muet be Camel case.
+- The name of the variables and method parameters must be Camel case.
 
 ```csharp
   namespace MyNamespace
@@ -45,8 +45,8 @@ The naming standards are defined under this section that use while developing an
   }
 ```
 
-- For the test methods same rules apply. However, underscore `_` can use for in test methods.
-- All the test methods must end with `Test` suffix.
+- For the test methods the same rules apply. However, underscore `_` can be used for test methods.
+- All the test methods must end with the `Test` suffix.
 
 ### Naming Namespace
 
@@ -54,27 +54,27 @@ The name of the namespace must be singular.
 
 ### Naming Methods That Read Data
 
-If the method reads data from databases or services (endpoints), the name of the method must be started with `Retrieve` prefix. On the other hand, other methods that read data must start with `Get` prefix.
+If the method reads data from databases or services (endpoints), the name of the method must be started with the `Retrieve` prefix. On the other hand, other methods that read data must start with `Get` prefix.
 
 ### Usage of `using`
 
-The `using` keyword that use for including libraries must be inside the namespace [[2]][[3]].
+The `using` keyword that is used for including libraries must be inside the namespace [[2]][[3]].
 
-The unnecessary `using` keywords should remove.
+The unnecessary `using` keywords should be removed.
 
 ### Usage of `static`
 
-The `static` keyword can be used only following situations.
+The `static` keyword can be used only in the following situations.
 
-- For the `Main` method that is entry point of the application [[4]].
+- For the `Main` method that is the entry point of the application [[4]].
 - For operator overloading [[5]].
 - For extension methods [[6]].
 
 ### Usage of `this` and `base`
 
-For every methods and variables must use with the `this` keyword if the development is in same class. Even if the class inherited from base class, must also use `this` keyword.
+Every method and variable must be used with the `this` keyword if the development is in the same class. Even if the class is inherited from the base class, the `this` keyword must be used.
 
-The `base` keyword must only use, if need to call base method and base variable.In addition, for calling non default constructors can be used `base` keyword.
+The `base` keyword must only be used if needed to call the base method and base variable. In addition, for calling non-default constructors, the `base` keyword must be used.
 
 ```csharp
 public class BaseClass
@@ -130,7 +130,7 @@ While developing an application must be used `static readonly` rather than `cons
 
 ### Usage of `sealed`
 
-If the need are closing class for inheritance, should use `sealed` keyword [[8]]. Otherwise, it should not be used.
+If the need is closing class for the inheritance, should use the `sealed` keyword [[8]]. Otherwise, it should not be used.
 
 ### Access Modifiers
 
@@ -147,11 +147,11 @@ The ordinal of the methods and variables must be in the following order in the c
 
 While defining an abstract class constructor, the access modifier of it must be `protected` [[10]].
 
-There is no restriction of defining default constructor for the abstract classes.
+There is no restriction of defining a default constructor for the abstract classes.
 
 ### Defining Interface
 
-The name of the interfaces must start with `I` prefix.
+The name of the interfaces must start with the `I` prefix.
 
 ```csharp
 public interface IMoveable
@@ -165,17 +165,17 @@ public interface MovableInterface
 }
 ```
 
-An interface must contain at least one method, at most ten methods. Additionally, an interface must add a behaviour to the class.
+An interface must contain at least one method, at most ten methods. Additionally, an interface must add a behavior to the class.
 
 The empty interfaces cannot be used.
 
 ### Using `class` or `struct`
 
-While developing an application, only `class` can be used. The `struct` keyword is used by framework.
+While developing an application, only `class` can be used. The `struct` keyword is used by the framework.
 
 ### Generic Types
 
-While naming of the generic types, must use `T` prefix and must continue with parameter name that express it.
+While the naming of the generic types, must use the `T` prefix and must continue with the parameter name that expresses it.
 
 ```csharp
 public abstract class BaseEntity<TEntity>
@@ -226,9 +226,9 @@ else
 
 ### Type Conversion and Checking
 
-While converting a type, the `as` keyword must use for reference type objects. After casting the result must check against null value [[14]] [[15]].
+While converting a type, the `as` keyword must be used for reference type objects. After casting the result must check against null value [[14]] [[15]].
 
-If the variable is a value typed object, for converting `()` (cast expression) must use.
+If the variable is a value typed object, converting `()` (cast expression) must be used.
 
 ### Usage of `var`
 
@@ -236,11 +236,11 @@ While developing an application, the `var` keyword cannot be used.
 
 ### Usage of `dynamic`
 
-While developing, the `dynamic` keyword should be used, if there is not any alternative solution. Before the keyword must be added a comment line for explanation of usage `dynamic` keyword reason.
+While developing, the `dynamic` keyword should be used, if there is not an alternative solution. Before the keyword must be added a comment line for an explanation of usage `dynamic` keyword reason.
 
 ### Usage of `readonly`
 
-If the value of the variable will not be changed in the code while initializing class, the variable should be marked as readonly with using `readonly` keyword.
+If the value of the variable will not be changed in the code while initializing the class, the variable should be marked as read-only using the `readonly` keyword.
 
 ### Inline Variable Defining
 
@@ -329,7 +329,7 @@ public void CalculateInvoice(int restaurantId)
 
 ### Indentation
 
-While developing code indentation must use with `TAB` [[16]].
+While developing code indentation must be used `TAB` [[16]].
 
 ## Design
 
@@ -337,7 +337,7 @@ While developing code indentation must use with `TAB` [[16]].
 
 ## Traceability
 
-The purpose of this section is make the application easy to trace and easy to find problematical code block.
+The purpose of this section is to make the application easy to trace and easy to find problematic code blocks.
 
 ### Logging
 
@@ -354,46 +354,46 @@ The following log message types can be used for logging [[17]] [[18]].
 
 #### Trace
 
-Just can be used for tracing the code or specific feature.
+Just can be used for tracing the code or specific features.
 
 #### Debug
 
-For finding the problem can be used. With this level log messages must provide information that help developer to find solution.
+Finding the problem can be used. At this level, the log messages must provide information that helps developers find solutions.
 
 #### Info (Information)
 
-Usually, use for giving general information about application such as application started or ended, application processed how many records, etc.
+Usually, giving general information about applications such as the application started or ended, the application processed how many records, etc.
 
 #### Warn (Warning)
 
-Used for exceptions which have been occurred, but automatically will be recovered situations. For example; one message could not be processed properly. The next cycle it will be tried again.
+Used for exceptions that have occurred, but automatically will be recovered. For example; one message could not be processed properly. The next cycle it will be tried again.
 
 #### Error
 
-If the exception is important for business, but it is not important for service, error level must be used for logging. For example; cannot respond any requests or cannot open a file for reading.
+If the exception is important for business, but not important for service, the error level must be used for logging. For example; cannot respond to any requests or cannot open a file for reading.
 
-In this condition log messages must be track and if it is needed, must take an action.
+In this condition, log messages must be tracked and if it is needed, must take action.
 
-While using error level, the notification message should be sent to the developer team.
+While using the error level, the notification message should be sent to the developer team.
 
 #### Fatal
 
-If the following conditions are occured, fatal level must be used in the following conditions.
+If the following conditions have occurred, the fatal level must be used in the following conditions.
 
 - Any exception that causes data loss.
 - Any exception that causes corruption.
 
-For example; deleting a record without way of recovery.
+For example; deleting a record without a way of recovery.
 
-While using fatal level, the notification message should be sent to the developer team, business owners and all related parties.
+While using the fatal level, the notification message should be sent to the developer team, business owners, and all related parties.
 
 ### Saving Log Messages
 
-The produced log message must save in the disk drive of the machine which application also works in.
+The produced log message must be saved in the disk drive of the machine in which the application also works.
 
-One application log messages must keep separately from other application log messages.
+One application log message must be kept separately from other application log messages.
 
-The logging library or code at least must provide following interface.
+The logging library or code at least must provide the following interface.
 
 ```csharp
 namespace <ProjectName>.Common
@@ -417,9 +417,9 @@ namespace <ProjectName>.Common
 
 ### Telemetry
 
-While developing an application, tracing the application with performance view may  be required. In this case, telemetry can be used.
+While developing an application, tracing the application with the performance view may be required. In this case, telemetry can be used.
 
-The telemerty library or code at least must provide following interface.
+The telemetry library or code at least must provide the following interface.
 
 ```csharp
 namespace Yemeksepeti.Anchovy.Trace
