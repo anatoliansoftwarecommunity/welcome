@@ -431,7 +431,7 @@ namespace <ProjectName>.Common
 
 ## Naming Test Methods
 
-Naming the test method must be followed this pattern below [[19]].
+Naming the test method must follow this pattern below [[19]].
 
 `Should_ExpectedBehavior_When_StateUnderTest`
 
@@ -455,7 +455,7 @@ public void Test_Method()
 
 ## Testing Framework and Libraries
 
-For developing test should be used a framework. The community suggests `XUnit` for testing framework, `Moq` for mocking framework.
+For developing tests should be used. The community suggests `XUnit` for testing framework, `Moq` for mocking framework.
 
 ## Naming of Mock Objects
 
@@ -463,7 +463,7 @@ Naming the mock object may be important while reading the test methods. So the c
 
 ## Naming Variable Inside The Test Method
 
-The name of the variables that are declared in the test method must be meaningful that has same meaning with the test method name.
+The name of the variables that are declared in the test method must be meaningful that have the same meaning as the test method name.
 
 ```csharp
 public void Should_ThrowsException_When_PositiveAndNegative()
@@ -495,7 +495,7 @@ public void Should_ThrowsException_When_AddContact_With_InvalidEmail()
 
 ## Arranging Test Methods
 
-While developing testing some arrangement code blocks may be duplicated. There is no problem for that, because each unit test must be isolated [[22]].
+While developing testing some arrangement code blocks may be duplicated. There is no problem with that because each unit test must be isolated [[22]].
 
 ## References
 
