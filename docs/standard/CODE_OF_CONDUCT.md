@@ -455,7 +455,7 @@ public void Test_Method()
 
 ## Testing Framework and Libraries
 
-For developing tests should be used. The community suggests `XUnit` for testing framework, `Moq` for mocking framework.
+For developing tests should be used. The community suggests [XUnit](https://xunit.net/) for testing framework, [Moq](https://www.moqthis.com/) for mocking framework.
 
 ## Naming of Mock Objects
 
