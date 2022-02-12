@@ -10,3 +10,9 @@ While creating a commit message the following items must be provided.
 - Every commit must have a meaningful message.
 - Commit messages can be multiple lines. However, the first line must be a summary of the operations.
 - Commit messages cannot contain the issue name or the issue number.
+
+## Branch Names
+
+Every repository must have a `master` branch.
+
+When the new branch is required, the branch name must be the same as the issue key.
