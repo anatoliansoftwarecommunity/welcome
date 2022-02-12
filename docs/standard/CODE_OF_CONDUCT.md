@@ -520,7 +520,7 @@ While developing testing some arrangement code blocks may be duplicated. There i
 19. [7 Popular Unit Test Naming Conventions][19]
 20. [Test Double][20]
 21. [Mocks Aren't Stubs][21]
-22. [][22]
+22. [Why Good Developers Write Bad Unit Tests][22]
 
 [1]: https://www.chaseadams.io/posts/most-common-programming-case-types/
 [2]: https://documentation.help/StyleCop/SA1200.html
