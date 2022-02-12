@@ -410,7 +410,7 @@ While developing an application, tracing the application with the performance vi
 The telemetry library or code at least must provide the following interface.
 
 ```csharp
-namespace Yemeksepeti.Anchovy.Trace
+namespace <ProjectName>.Common
 {
   public interface ITelemetry
   {
