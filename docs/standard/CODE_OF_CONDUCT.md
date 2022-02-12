@@ -4,11 +4,7 @@ This document contains a set of rules outlining the community's norms, rules, an
 
 This document contains only `C#` rules because the community will start developing with that programming language.
 
-## Readability
-
-The purpose of this section is while reading the code blocks must be easy to track and fast to read.
-
-### Casing
+## Casing
 
 The naming standards are defined under this section that is used while developing an application [[1]].
 
@@ -48,21 +44,21 @@ The naming standards are defined under this section that is used while developin
 - For the test methods the same rules apply. However, underscore `_` can be used for test methods.
 - All the test methods must end with the `Test` suffix.
 
-### Naming Namespace
+## Naming Namespace
 
 The name of the namespace must be singular.
 
-### Naming Methods That Read Data
+## Naming Methods That Read Data
 
 If the method reads data from databases or services (endpoints), the name of the method must be started with the `Retrieve` prefix. On the other hand, other methods that read data must start with `Get` prefix.
 
-### Usage of `using`
+## Usage of `using`
 
 The `using` keyword that is used for including libraries must be inside the namespace [[2]][[3]].
 
 The unnecessary `using` keywords should be removed.
 
-### Usage of `static`
+## Usage of `static`
 
 The `static` keyword can be used only in the following situations.
 
@@ -70,7 +66,7 @@ The `static` keyword can be used only in the following situations.
 - For operator overloading [[5]].
 - For extension methods [[6]].
 
-### Usage of `this` and `base`
+## Usage of `this` and `base`
 
 Every method and variable must be used with the `this` keyword if the development is in the same class. Even if the class is inherited from the base class, the `this` keyword must be used.
 
@@ -124,15 +120,15 @@ public class DerivedClass: BaseClass
 }
 ```
 
-### Usage of `const`
+## Usage of `const`
 
 While developing an application must be used `static readonly` rather than `const` [[7]].
 
-### Usage of `sealed`
+## Usage of `sealed`
 
 If the need is closing class for the inheritance, should use the `sealed` keyword [[8]]. Otherwise, it should not be used.
 
-### Access Modifiers
+## Access Modifiers
 
 The ordinal of the methods and variables must be in the following order in the class [[9]].
 
@@ -143,13 +139,13 @@ The ordinal of the methods and variables must be in the following order in the c
 5. private protected
 6. private
 
-### Abstract Classes
+## Abstract Classes
 
 While defining an abstract class constructor, the access modifier of it must be `protected` [[10]].
 
 There is no restriction of defining a default constructor for the abstract classes.
 
-### Defining Interface
+## Defining Interface
 
 The name of the interfaces must start with the `I` prefix.
 
@@ -169,11 +165,11 @@ An interface must contain at least one method, at most ten methods. Additionally
 
 The empty interfaces cannot be used.
 
-### Using `class` or `struct`
+## Using `class` or `struct`
 
 While developing an application, only `class` can be used. The `struct` keyword is used by the framework.
 
-### Generic Types
+## Generic Types
 
 While the naming of the generic types, must use the `T` prefix and must continue with the parameter name that expresses it.
 
@@ -194,7 +190,7 @@ public abstract class BaseDictionary<K, V>
 }
 ```
 
-### Control Statements
+## Control Statements
 
 - The `?:`, `??`, `??=`, `?.`, and `?[]` control statements cannot be used [[11]] [[12]] [[13]].
 - The `if`, `else`, and `else if` control blocks must start and end with curly brackets.
@@ -224,25 +220,25 @@ else
 }
 ```
 
-### Type Conversion and Checking
+## Type Conversion and Checking
 
 While converting a type, the `as` keyword must be used for reference type objects. After casting the result must check against null value [[14]] [[15]].
 
 If the variable is a value typed object, converting `()` (cast expression) must be used.
 
-### Usage of `var`
+## Usage of `var`
 
 While developing an application, the `var` keyword cannot be used.
 
-### Usage of `dynamic`
+## Usage of `dynamic`
 
 While developing, the `dynamic` keyword should be used, if there is not an alternative solution. Before the keyword must be added a comment line for an explanation of usage `dynamic` keyword reason.
 
-### Usage of `readonly`
+## Usage of `readonly`
 
 If the value of the variable will not be changed in the code while initializing the class, the variable should be marked as read-only using the `readonly` keyword.
 
-### Inline Variable Defining
+## Inline Variable Defining
 
 While developing an application, the inline variable definition is prohibited.
 
@@ -255,7 +251,7 @@ UserCreateRequest request = new UserCreateRequest{...};
 UserCreateResponse response = this.service.Execute(request);
 ```
 
-### Semantics Grouping & Separation
+## Semantics Grouping & Separation
 
 The code blocks that are semantically paired must not be separated.
 
@@ -327,19 +323,11 @@ public void CalculateInvoice(int restaurantId)
 }
 ```
 
-### Indentation
+## Indentation
 
 While developing code indentation must be used `TAB` [[16]].
 
-## Design
-
-## Maintainability
-
-## Traceability
-
-The purpose of this section is to make the application easy to trace and easy to find problematic code blocks.
-
-### Logging
+## Logging
 
 While developing an application the first step is creating usable and meaningful log records. This part is related to logging.
 
@@ -352,23 +340,23 @@ The following log message types can be used for logging [[17]] [[18]].
 - Error
 - Fatal
 
-#### Trace
+### Trace
 
 Just can be used for tracing the code or specific features.
 
-#### Debug
+### Debug
 
 Finding the problem can be used. At this level, the log messages must provide information that helps developers find solutions.
 
-#### Info (Information)
+### Info (Information)
 
 Usually, giving general information about applications such as the application started or ended, the application processed how many records, etc.
 
-#### Warn (Warning)
+### Warn (Warning)
 
 Used for exceptions that have occurred, but automatically will be recovered. For example; one message could not be processed properly. The next cycle it will be tried again.
 
-#### Error
+### Error
 
 If the exception is important for business, but not important for service, the error level must be used for logging. For example; cannot respond to any requests or cannot open a file for reading.
 
@@ -376,7 +364,7 @@ In this condition, log messages must be tracked and if it is needed, must take a
 
 While using the error level, the notification message should be sent to the developer team.
 
-#### Fatal
+### Fatal
 
 If the following conditions have occurred, the fatal level must be used in the following conditions.
 
@@ -387,7 +375,7 @@ For example; deleting a record without a way of recovery.
 
 While using the fatal level, the notification message should be sent to the developer team, business owners, and all related parties.
 
-### Saving Log Messages
+## Saving Log Messages
 
 The produced log message must be saved in the disk drive of the machine in which the application also works.
 
@@ -415,7 +403,7 @@ namespace <ProjectName>.Common
 }
 ```
 
-### Telemetry
+## Telemetry
 
 While developing an application, tracing the application with the performance view may be required. In this case, telemetry can be used.
 
@@ -440,18 +428,6 @@ namespace Yemeksepeti.Anchovy.Trace
   }
 }
 ```
-
-## Performance
-
-## Security
-
-## Right Business
-
-## Testability
-
-## Portability
-
-## Cloud Ready
 
 ## References
 
