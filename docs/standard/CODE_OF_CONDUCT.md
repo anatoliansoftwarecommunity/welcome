@@ -429,6 +429,74 @@ namespace <ProjectName>.Common
 }
 ```
 
+## Naming Test Methods
+
+Naming the test method must be followed this pattern below [[19]].
+
+`Should_ExpectedBehavior_When_StateUnderTest`
+
+## Test Method Structure
+
+The test method must be separated into 3 parts. Assert, Act, and Arrange.
+
+```csharp
+public void Test_Method()
+{
+    //Arrange
+    // setup test
+
+    //Act
+    // execute the test
+
+    //Assert
+    // assertions
+}
+```
+
+## Testing Framework and Libraries
+
+For developing test should be used a framework. The community suggests `XUnit` for testing framework, `Moq` for mocking framework.
+
+## Naming of Mock Objects
+
+Naming the mock object may be important while reading the test methods. So the correct naming must be selected for objects [[20]] [[21]].
+
+## Naming Variable Inside The Test Method
+
+The name of the variables that are declared in the test method must be meaningful that has same meaning with the test method name.
+
+```csharp
+public void Should_ThrowsException_When_PositiveAndNegative()
+{
+    //Arrange
+    int positiveNumber = 1;
+    int negativeNumber = -1;
+
+    //Act
+    sut.AddNumbers(positiveNumber, negativeNumber);
+
+    // Assert
+
+}
+
+public void Should_ThrowsException_When_AddContact_With_InvalidEmail()
+{
+    // Arrange
+    string anyCorrectPhoneNumber = "1234567891";
+    string invalidEmail = "asc@example.cöm";
+            
+    // Act
+    sut.AddContact(anyCorrectPhoneNumber, invalidEmail);
+
+    // Assert
+
+}
+```
+
+## Arranging Test Methods
+
+While developing testing some arrangement code blocks may be duplicated. There is no problem for that, because each unit test must be isolated [[22]].
+
 ## References
 
 1. [Most Common Programming Case Types][1]
@@ -449,6 +517,10 @@ namespace <ProjectName>.Common
 16. [Developers Who Use Spaces Make More Money Than Those Who Use Tabs][16]
 17. [Stackoverflow - When to use the different log levels][17]
 18. [Wikipedia - Syslog][18]
+19. [7 Popular Unit Test Naming Conventions][19]
+20. [Test Double][20]
+21. [Mocks Aren't Stubs][21]
+22. [][22]
 
 [1]: https://www.chaseadams.io/posts/most-common-programming-case-types/
 [2]: https://documentation.help/StyleCop/SA1200.html
@@ -468,3 +540,7 @@ namespace <ProjectName>.Common
 [16]: https://stackoverflow.blog/2017/06/15/developers-use-spaces-make-money-use-tabs/
 [17]: https://stackoverflow.com/questions/2031163/when-to-use-the-different-log-levels/2031209#2031209
 [18]: https://en.wikipedia.org/wiki/Syslog
+[19]: https://dzone.com/articles/7-popular-unit-test-naming
+[20]: https://martinfowler.com/bliki/TestDouble.html
+[21]: https://martinfowler.com/articles/mocksArentStubs.html
+[22]: https://mtlynch.io/good-developers-bad-tests/
