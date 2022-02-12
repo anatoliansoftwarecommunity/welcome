@@ -5,3 +5,4 @@ This document contains a set of rules outlining the community's norms, rules, an
 - [C# Developing Standards](CSHARP_RULES.md)
 - [Git Standards](GIT_RULES.md)
 - [GitHub Standards](GITHUB_RULES.md)
+- [Project Rules](PROJECT_RULES.md)
